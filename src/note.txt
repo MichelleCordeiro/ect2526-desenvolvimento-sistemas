@@ -1,0 +1,4 @@
+https://kinsta.com/knowledgebase/react-must-be-in-scope-when-using-jsx/
+
+Foi preciso executar esse comando no computador no lab. No debian não deu certo, mas no windows funcional
+npm install react-scripts@latest

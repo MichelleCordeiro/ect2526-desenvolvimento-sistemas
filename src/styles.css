@@ -46,3 +46,19 @@ ul {
   padding-left: 20px;
 }
 
+.btn2 {
+  background-color: rgb(112, 45, 145);
+  color: crimson;
+}
+
+.avatar {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.cadastro {
+  margin-top: 250px;
+  background-color: rgb(237, 122, 220);
+}
