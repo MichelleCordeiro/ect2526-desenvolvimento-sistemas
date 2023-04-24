@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <title>Aula Node</title>
+
+    <script>
+        function enviar() {
+            let id = document.getElementById('reg').value
+            console.log("Meu id: ", id)
+            fetch("http://localhost:3001/" + id)
+                .then(resp => resp.text())
+                .then(texto => atualizarInterface(texto))
+        }
+
+        function atualizarInterface(texto) {
+            document.getElementById('msg').innerHTML = texto
+            console.log(texto)
+        }
+    </script>
+</head>
+
+<body style="background-color: gray;">
+    <h1 id="msg">Um texto qualquer aqui!!</h1>
+
+    <input type="text" id="reg">
+    <button onclick="enviar()">Enviar</button>
+</body>
+</html>
+
+
+<!-- 
+    Deu erro de CORS policy, é um erro de permissão
+    Basta:
+    - parar o servidor
+    - instalar npx i cors
+    - add no index.js
+        var cors = require('cors')
+        app.use(cors())
+-->
