@@ -1,42 +1,41 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <title>Aula Node</title>
+  <title>Aula Node</title>
 
-    <script>
-        function enviar() {
-            let id = document.getElementById('reg').value
-            console.log("Meu id: ", id)
-            fetch("http://localhost:3001/" + id)
-                .then(resp => resp.text())
-                .then(texto => atualizarInterface(texto))
-        }
+  <script>
+    function enviar() {
+      let id = document.getElementById('reg').value
+      console.log('Meu id: ', id)
+      fetch('http://localhost:3001/' + id)
+        .then(resp => resp.text())
+        .then(texto => atualizarInterface(texto))
+    }
 
-        function somar() {
-            let op1 = document.getElementById('reg').value
-            let op2 = document.getElementById('reg2').value
+    function somar() {
+      let op1 = document.getElementById('reg').value
+      let op2 = document.getElementById('reg2').value
 
-            fetch("http://localhost:3001/soma/" + op1 + "/" + op2)
-                .then(resp => resp.text())
-                .then(texto => atualizarInterface(texto))
-        }
+      fetch('http://localhost:3001/soma/' + op1 + '/' + op2)
+        .then(resp => resp.text())
+        .then(texto => atualizarInterface(texto))
+    }
 
-        function atualizarInterface(texto) {
-            document.getElementById('msg').innerHTML = texto
-            console.log(texto)
-        }
-    </script>
+    function atualizarInterface(texto) {
+      document.getElementById('msg').innerHTML = texto
+      console.log(texto)
+    }
+  </script>
 </head>
 
-<body style="background-color: gray;">
-    <h1 id="msg">Um texto qualquer aqui!!</h1>
+<body style="background-color: gray">
+  <h1 id="msg">Um texto qualquer aqui!!</h1>
 
-    <input type="text" id="reg">
-    <input type="text" id="reg2">
-    <button onclick="somar()">Somar</button>
+  <input type="text" id="reg" />
+  <input type="text" id="reg2" />
+  <button onclick="somar()">Somar</button>
 </body>
 </html>
-
 
 <!-- 
     Deu erro de CORS policy, é um erro de permissão
