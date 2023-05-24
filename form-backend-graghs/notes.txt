@@ -1,0 +1,44 @@
+VITE - -rojeto criado c Vite
+https://vitejs.dev/
+> npm create vite@latest
+  name: form-backend-graghs
+  // "name": "pets",
+
+> cd form-backend-graghs
+> npm install
+> npm run dev
+
+
+MUI c Emotion
+https://mui.com/
+> npm install @mui/material @emotion/react @emotion/styled
+
+
+BACK-END
+JSON Server - servidor
+https://www.npmjs.com/package/json-server
+> npm install -g json-server
+
+Lembrar de sempre  ffor usar executar o servidor
+> npx json-server --watch db.json
+
+
+// react-dom
+// https://www.npmjs.com/package/react-dom
+// > npm install react react-dom
+
+
+// TYPESCRIPT @types/react-dom
+// > npm install --save @types/react-dom -D
+
+
+React Router DOM
+https://reactrouter.com/en/main/start/tutorial
+>
+
+  Ver os exemplos do Components(Form, Link, Navigate, Outlet, Route, Routes) no site
+
+
+
+Recharts https://recharts.org/en-US/guide/getting-started
+> npm install recharts

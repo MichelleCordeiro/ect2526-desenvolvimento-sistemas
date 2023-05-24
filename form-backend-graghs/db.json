@@ -1,0 +1,46 @@
+{
+  "pets": [
+    {
+      "id": 1,
+      "nome": "Cebolinha",
+      "especie": "Cão",
+      "idade": 15
+    },
+    {
+      "id": 2,
+      "nome": "Cascão",
+      "especie": "Gato",
+      "idade": 4
+    },
+    {
+      "nome": "Magali",
+      "especie": "Girafa",
+      "id": 3,
+      "idade": 5
+    },
+    {
+      "nome": "Mônica",
+      "especie": "Pardal",
+      "id": 4,
+      "idade": 2
+    },
+    {
+      "nome": "mic",
+      "especie": "gato",
+      "id": 5,
+      "idade": 12
+    },
+    {
+      "nome": "Mingal",
+      "especie": "Gato",
+      "id": 6,
+      "idade": 7
+    },
+    {
+      "nome": "Mony",
+      "especie": "Peixe",
+      "id": 7,
+      "idade": 8
+    }
+  ]
+}
