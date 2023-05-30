@@ -12,17 +12,18 @@
 <h3> 🎥 Video </h3>
 
 <div align="left">
-  <video src="https://user-images.githubusercontent.com/42891377/231357237-e1e89583-a44d-4aa8-b03a-7baaba03a5a1.mp4"></video>
+  <video src="https://github.com/MichelleCordeiro/ect2526-desenvolvimento-sistemas/assets/42891377/f3d9dcd5-b93d-497e-a483-d8e18ba475f2"></video>
 </div>
 
 <br>
 
-<h3> 👩‍💻 Biscoito da Sorte </h3>
+<h3> 👩‍💻 Projeto </h3>
 Aplicação web e servidor desenvolvidos para um trabalho da disciplina ECT2526 - Desenvolvimento de Sistemas para Internet, do curso de Ciências & Tecnologia da UFRN.
-
-O front-end foi desenvolvido a partir de um desafio realizado no curso Explorer da [Rockseat](https://www.rocketseat.com.br/). Repositório [aqui](https://github.com/MichelleCordeiro/rocketseat-explorer/tree/main/stage-05-javascript-advanced/proj-01-desafio-fortune-cookie)
-
 <br><br>
+
+O front-end foi desenvolvido com HTML, CSS e JS, e o back-end utilizando o Express e NodeJS. Foi usado como base um desafio realizado no curso Explorer da [Rockseat](https://www.rocketseat.com.br/). Repositório [aqui](https://github.com/MichelleCordeiro/rocketseat-explorer/tree/main/stage-05-javascript-advanced/proj-01-desafio-fortune-cookie)
+
+<br>
 
 <h3> 🚀 Technologies </h3>
 
@@ -36,12 +37,11 @@ O front-end foi desenvolvido a partir de um desafio realizado no curso Explorer 
   <code><img height="33" alt="figma logo" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"/></code>
 </p>
 
-<br><br>
+<br>
 
 <h3> 🎯 Aprendizado: </h3>
 
-- front-end desenvolvido usando html e css
-- js EC6
+- EC6 modules
 - manipulação da DOM (querySelector, classList)
 - eventos (addEventListener)
 - loops
@@ -51,9 +51,6 @@ O front-end foi desenvolvido a partir de um desafio realizado no curso Explorer 
 - get/post/put/delete
 - fecth-then
 
-<div align="left">
-  <video src="https://user-images.githubusercontent.com/42891377/231357237-e1e89583-a44d-4aa8-b03a-7baaba03a5a1.mp4"></video>
-</div>
 
 
 
