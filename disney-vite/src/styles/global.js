@@ -1,0 +1,54 @@
+import { createGlobalStyle } from "styled-components";
+
+import Disney from '../fonts/waltographUI.ttf'
+import Disney2 from '../fonts/waltograph42.otf'
+
+export default createGlobalStyle`
+  @font-face {
+    font-family: "Disney";
+    src: local("waltographUI"),
+      url(${Disney}) format("truetype"),
+      url(${Disney2}) format("opentype");
+      font-weight: 500;
+      font-style: normal;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
+    color: ${({ theme }) => theme.COLORS.WHITE};
+
+    -webkit-font-smmothing: antialiased;
+
+  }
+
+  body, input, button, textarea {
+    font-family: 'Roboto Slab', serif;
+    font-style: 16px;
+    outline: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button, a {
+    cursor: pointer;
+    transition: filter 0.2s;
+  }
+
+
+  button:hover, a:hover {
+    filter: brightness(0.9);
+  }
+
+  h1 {
+    font-family: 'Disney';
+  }
+
+`
