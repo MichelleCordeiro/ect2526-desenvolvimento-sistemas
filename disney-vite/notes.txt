@@ -1,0 +1,37 @@
+Rocketseat React Class
+
+> npm create vite@latest
+  name: disney-vite
+
+> cd disney-vite
+> npm install
+> npm run dev
+
+MUI + Styled-components
+https://mui.com/material-ui/getting-started/installation/
+> https://mui.com/material-ui/getting-started/installation/
+
+
+To correct error "is missing in props validationeslintreact/prop-types"
+> npm i prop-types
+
+components > Button > index.js
+  import { PropTypes } from 'prop-types'
+
+  Button.propTypes = {
+    title: PropTypes.string.isRequired,
+    loading: PropTypes.string.isRequired
+  }
+
+REACT ICONS
+https://react-icons.github.io/react-icons/
+https://react-icons.github.io/react-icons/icons?name=ri
+> npm install react-icons --save
+
+  import { IconName } from "react-icons/ri";
+
+> 
+> 
+> 
+> 
+> 
