@@ -14,6 +14,7 @@ export const Container = styled.header`
   align-items: center;
   padding: 0 8rem;
 `
+
 export const Profile = styled.div`
   display: flex;
   align-items: center;
@@ -31,12 +32,12 @@ export const Profile = styled.div`
     line-height: 2.4rem;
 
     span {
-      font-style: 1.4rem;
+      font-size: 1.4rem;
       color: ${({ theme }) => theme.COLORS.GRAY_100};
     }
 
     strong {
-      font-style: 1.8rem;
+      font-size: 1.8rem;
       color: ${({ theme }) => theme.COLORS.WHITE};
     }
   }

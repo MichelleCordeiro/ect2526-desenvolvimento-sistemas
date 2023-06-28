@@ -10,7 +10,7 @@ export default createGlobalStyle`
       url(${Disney}) format("truetype"),
       url(${Disney2}) format("opentype");
       font-weight: 500;
-      font-style: normal;
+      font-size: normal;
   }
 
   * {
@@ -31,9 +31,9 @@ export default createGlobalStyle`
     font-size: 1.6rem;
   }
 
-  body, input, button, textarea {
+  body, input, button, textarea, p {
     font-family: 'Roboto Slab', serif;
-    font-style: 1.6rem;
+    font-size: 1.6rem;
     outline: none;
   }
 
@@ -48,11 +48,7 @@ export default createGlobalStyle`
 
 
   button:hover, a:hover {
-    filter: brightness(0.9);
-  }
-
-  h1 {
-    font-family: 'Disney';
+    filter: brightness(0.8);
   }
 
 `

@@ -1,17 +1,17 @@
 import styled from "styled-components";
 
 export const Container = styled.section`
-  margin: 5.6rem 0 2.8rem;
+  margin: 2.8rem 0;
 
-  > h2 {
+  > h3 {
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: ${({ theme }) => theme.COLORS.BACKGROUND_700};
 
-    padding-bottom: 1.6rem;
-    margin-bottom: 2.4rem;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
     color: ${({ theme }) => theme.COLORS.GRAY_100};
-    font-style: 2rem;
+    font-size: 2rem;
     font-weight: 400;
   }
 `
