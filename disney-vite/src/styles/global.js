@@ -1,4 +1,4 @@
-import { createGlobalStyle } from "styled-components";
+import { createGlobalStyle } from 'styled-components';
 
 import Disney from '../fonts/waltographUI.ttf'
 import Disney2 from '../fonts/waltograph42.otf'
@@ -35,6 +35,10 @@ export default createGlobalStyle`
     font-family: 'Roboto Slab', serif;
     font-size: 1.6rem;
     outline: none;
+  }
+
+  h1 {
+    font-family: 'Disney', 'Disney2';
   }
 
   a {

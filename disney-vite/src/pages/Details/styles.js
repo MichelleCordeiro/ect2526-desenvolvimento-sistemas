@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from 'styled-components'
 
 export const Container = styled.div`
   width: 100%;
@@ -12,7 +12,7 @@ export const Container = styled.div`
   
   > main {
     grid-area: content;
-    overflow-y: scroll;
+    overflow-y: auto;
     
     display: flex;
     padding: 6.4rem 0;
@@ -33,6 +33,7 @@ export const Links = styled.ul`
 
 export const Content = styled.div`
   min-width: 550px;
+  height: min-content;
   margin: 0 auto;
 
   display: flex;
@@ -47,13 +48,12 @@ export const Content = styled.div`
     line-height: 6rem;
 
     h1 {
-      font-family: 'Disney', 'Disney2';
-      font-size: 4.5rem;
+      font-size: 4rem;
     }
   }
 
   > h2 {
-    font-size: 3.6rem;
+    font-size: 3rem;
     font-weight: 500;
     padding-bottom: 2rem;
   }
