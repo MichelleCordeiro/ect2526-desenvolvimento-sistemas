@@ -1,4 +1,6 @@
 import { Container, Links, Content } from './styles.js'
+import { Link } from 'react-router-dom'
+
 import { Header } from '../../components/Header/index.jsx'
 import { Button } from '../../components/Button/index.jsx'
 import { Section } from '../../components/Section/index.jsx'
@@ -35,9 +37,9 @@ export function Details(){
 
           <Section title="Links úteis">
             <Links>
-              <li><a href="#">https://www.rocketseat.com.br</a></li>
-              <li><a href="#">https://www.rocketseat.com.br</a></li>
-              <li><a href="#">https://www.rocketseat.com.br</a></li>
+              <li><Link to="#">https://www.rocketseat.com.br</Link></li>
+              <li><Link to="#">https://www.rocketseat.com.br</Link></li>
+              <li><Link to="#">https://www.rocketseat.com.br</Link></li>
             </Links>
           </Section>
 

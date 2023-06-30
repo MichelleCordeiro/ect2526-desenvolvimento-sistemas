@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import backgroundImg from '../../assets/disney_personagens3.jpg';
+import backgroundImg from '../../assets/disney_personagens3.png';
 
 export const Container = styled.div`
   height: 100vh;

@@ -26,7 +26,7 @@ export function Home() {
       </Menu>
 
       <Search>
-        <Input placeholder="Pesquisar por personagem" icon={ FiSearch}/>
+        <Input placeholder="Pesquisar por personagem" icon={ FiSearch }/>
       </Search>
 
       <Content>
@@ -42,7 +42,7 @@ export function Home() {
         </Section>
       </Content>
 
-      <NewPerson>
+      <NewPerson to="/new">
         <FiPlus />
           Adicionar personagem
       </NewPerson>
