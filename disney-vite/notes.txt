@@ -30,7 +30,14 @@ https://react-icons.github.io/react-icons/icons?name=ri
 
   import { IconName } from "react-icons/ri";
 
-> 
+PARALLAX NO BACKGROUND
+https://www.npmjs.com/package/react-scroll-parallax
+https://react-scroll-parallax.damnthat.tv/docs/usage/components/parallax-provider
+https://codesandbox.io/s/react-scroll-parallax-hero-banner-forked-veoq3s?file=/src/App.tsx
+
+> npm install react-scroll-parallax
+
+
 > 
 > 
 > 

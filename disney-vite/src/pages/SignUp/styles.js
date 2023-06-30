@@ -46,4 +46,5 @@ export const Background = styled.div`
   background-size: cover;
   justify-content: center;
   filter: brightness(0.7);
+
 `

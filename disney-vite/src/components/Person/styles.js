@@ -11,7 +11,7 @@ export const Container = styled.button`
 
   > h1 {
     flex: 1;
-    font-family: 'Roboto, serif';
+    font-family: 'Roboto sLAB', 'serif';
     font-size: 2.4rem;
     font-weight: 700;
     text-align: left;

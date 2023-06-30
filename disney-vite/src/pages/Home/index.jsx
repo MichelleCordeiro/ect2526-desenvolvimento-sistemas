@@ -1,6 +1,6 @@
 import { FiPlus, FiSearch } from 'react-icons/fi'
 
-import { Container, Brand, Menu, Search, Content, NewPerson } from "./styles";
+import { Container, Brand, Menu, Search, Content, NewPerson } from './styles';
 
 import { Header } from '../../components/Header'
 import { ButtonText } from '../../components/ButtonText'
