@@ -1,0 +1,63 @@
+
+API
+
+Cria package.json
+  > npm init -y
+
+
+EXPRESSJS - framework web p reqwuisições http
+  > npm install express
+  > node src/server.js
+
+NODEMON
+  Dependência de desenvolvimento, pois não precisa dele em produção
+  Ele fica "ouvindo" as mudanças na aplicação
+    
+    > npm install nodemon --save-dev
+
+      Não usar essa instalação
+      > sudo npm install -g nodemon
+    
+  > nodemon src/server.js
+  > npx nodemon src/server.js
+
+package.json
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
+
+Executa
+ > npm start  ( em produção )
+ ou
+ > npm run dev  ( em desenvolvimento )
+
+
+ARQUITETURA DA API ou SERVER
+  ⊛ routes
+    ( organiza as rotas )
+    ( só vai receber a requisição e resposta e
+      repassar pro controller responsável )
+    index.js    concentra as routas
+
+  ⊛ controllers
+    ( um controller pode ter no máximo 5 métodos/funções )
+    ( o controller q vai processar a requisição e 
+      devolver a resposta a rota )
+
+    Funções:
+      index - método GET p listar vários registros
+      show - método GET p exibir um registro espacífico
+      create - método POST p criar
+      update - método PUT p atualizar um registro
+      delete - método DELETE p remover um registro
+
+  ⊛ utils
+    ( serve p padronizar a msg qdo acontecer uma exceção/eror )
+
+
+  ⊛ database
+
+BIBLIOTECA P TRATAMENTO DE ERROS
+EXPRESS ASYNC ERRORS
+  > npm install express-async-errors --save
