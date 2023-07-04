@@ -25,7 +25,7 @@ O front-end foi desenvolvido com HTML, CSS e JS, e o back-end utilizando o Expre
 
 <br>
 
-<h3> 🚀 Technologies </h3>
+<h3> 🚀 Technologias </h3>
 
 <p>
   <code><img height="35" alt="html logo" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"></code>
@@ -51,6 +51,11 @@ O front-end foi desenvolvido com HTML, CSS e JS, e o back-end utilizando o Expre
 - get/post/put/delete
 - fecth-then
 
+<br>
 
+<h3> 📑 Instruções: </h3>
 
-
+- Front-end
+  - no VS Code abre o web / **index.html** com **open with Live Server**
+- Back-end
+  - terminal na pasta server executa o comando **node index.js**

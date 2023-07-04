@@ -1,9 +1,8 @@
-// @import './form.css'
+import './form.css'
 
 export default function MyForm() {
   return (
-    
-    <form action='' method='get'>
+    <form action='' method='get' className='form-123'>
       <label htmlFor='name'>
         Nome
         <input type='text' name='name' placeholder='Fulana' required />

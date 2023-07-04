@@ -38,7 +38,7 @@ ARQUITETURA DA API ou SERVER
     ( organiza as rotas )
     ( só vai receber a requisição e resposta e
       repassar pro controller responsável )
-    index.js    concentra as routas
+    index.js    concentra as rotas
 
   ⊛ controllers
     ( um controller pode ter no máximo 5 métodos/funções )
