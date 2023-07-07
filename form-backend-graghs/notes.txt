@@ -13,6 +13,9 @@ MUI c Emotion
 https://mui.com/
 > npm install @mui/material @emotion/react @emotion/styled
 
+MATIRIAL ICON - lixeira p delete
+> npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+
 
 BACK-END
 JSON Server - servidor

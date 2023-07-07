@@ -42,3 +42,21 @@
 .read-the-docs {
   color: #888;
 }
+
+form {
+  display: flex;
+  
+  gap: 30px;
+  /* background-color: green */
+}
+
+.inputCreate label{
+  font-weight: bold;
+  font-size: 18px
+}
+
+.inputCreate placeholder {
+  color: red;
+  font-weight: bold;
+  font-size: 24px
+}

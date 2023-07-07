@@ -25,10 +25,10 @@
       "idade": 2
     },
     {
-      "nome": "mic",
-      "especie": "gato",
-      "id": 5,
-      "idade": 12
+      "nome": "Mic",
+      "especie": "Gato",
+      "idade": "8",
+      "id": 5
     },
     {
       "nome": "Mingal",
@@ -37,10 +37,22 @@
       "idade": 7
     },
     {
-      "nome": "Mony",
+      "nome": "Monyyyy",
       "especie": "Peixe",
-      "id": 7,
-      "idade": 8
+      "idade": "1",
+      "id": 7
+    },
+    {
+      "nome": "Cora",
+      "especie": "Cobra",
+      "id": 8,
+      "idade": 3
+    },
+    {
+      "nome": "Leo",
+      "especie": "Leão",
+      "idade": "9",
+      "id": 9
     }
   ]
 }

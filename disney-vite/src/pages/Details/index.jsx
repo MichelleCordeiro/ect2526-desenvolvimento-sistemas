@@ -37,9 +37,9 @@ export function Details(){
 
           <Section title="Links úteis">
             <Links>
-              <li><Link to="#">https://www.rocketseat.com.br</Link></li>
-              <li><Link to="#">https://www.rocketseat.com.br</Link></li>
-              <li><Link to="#">https://www.rocketseat.com.br</Link></li>
+              <li><Link to="#">https://api.disneyapi.dev/</Link></li>
+              <li><Link to="#">https://api.disneyapi.dev/</Link></li>
+              <li><Link to="#">https://api.disneyapi.dev/</Link></li>
             </Links>
           </Section>
 
